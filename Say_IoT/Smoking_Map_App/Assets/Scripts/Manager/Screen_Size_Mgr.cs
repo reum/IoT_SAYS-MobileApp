@@ -38,6 +38,7 @@ public class Screen_Size_Mgr : MonoBehaviour {
         Screen.SetResolution(Screen.width, (Screen.width * 16) / 9, true);
         //자동 화면 잠금 방지
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
+        ApplicationChrome.statusBarState = ApplicationChrome.States.Visible;
 
 
 
